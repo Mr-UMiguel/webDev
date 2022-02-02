@@ -1,0 +1,258 @@
+body {
+    background-color: #F6F6F6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px
+
+}
+
+/* HEADER STYLE */
+
+header {
+    background-image: url("./images/header.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    margin: auto;
+    padding: 10px 0 10px 15px ;
+    border: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 a {
+    font-weight: normal;
+    text-decoration: none;
+    color: #e7eaeb;
+}
+
+
+nav.headerNav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+ul#headerUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e7eaeb;
+}
+
+ul#headerUl li {
+    float: left;
+}
+
+.navHeader__a {
+    display: block;
+    color: #263F5B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navHeader__a:hover {
+    background-color: rgba(45, 130, 190, .95);
+    color: #e7eaeb;
+}
+
+/* PRODUCT VIEWER*/
+
+.productSlider {
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    background-color: white;
+    width: 100%;
+    height: 600px;
+}
+
+
+/* Text */
+.productSlider article {
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    border: 0;
+
+    left: 1%;
+    top: 18%;
+
+    background-color: white;
+    width: 37%;
+    height: 50%;
+    text-align: auto;
+    overflow: hidden;
+}
+
+.productSlider article h2{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.box1 {
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    border: 0;
+
+    left: 45%;
+    top: 10%;
+
+    background-color: rgba(252,157,46,.65);
+    width: 50%;
+    height: 80%;
+    border-radius: 0 0 10px 10px;
+
+    text-align: center;
+}
+
+.box2 {
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    border: 0;
+
+    left: 40%;
+    top: 10%;
+
+    background-color: rgba(41, 188, 214, 0.55);
+    width: 55%;
+    height: 65%;
+    border-radius: 10px 0 0 10px;
+}
+
+.box3 {
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    border: 0;
+
+    left: 45%;
+    top: 5%;
+
+    background-color: rgba(41, 188, 214, 0.65);
+    width: 50%;
+    height: 5%;
+    border-radius: 10px 0 0 0;
+}
+
+.box4 {
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    border: 0;
+
+    left: 95%;
+    top: 5%;
+
+    background-color: rgba(41, 188, 214, 0.65);
+    width: 2%;
+    height: 70%;
+    border-radius: 0 10px 10px 0;
+}
+
+/* DEMOSTRATION SLIDER */
+
+.demos {
+    margin: auto;
+    padding: 0;
+    position: relative;
+
+    background-color: white;
+    width: 100%;
+    height: 500px;
+
+    
+}
+
+.demosContainer {
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    border-radius: 10px;
+
+    background-color: #e7eaeb;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* FOOTER */
+
+
+.footerNav {
+    background-color: #263F5B;
+    text-align: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px; 
+    padding-bottom: 5px
+}
+
+ul#footerUl {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #263F5B;
+    text-align: center;
+}
+
+ul#footerUl li {
+    float: center;
+}
+
+.navFooter__a {
+    display: inline-block;
+    color: #e7eaeb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* CHAT BAR */
+
+#chatbar {
+    position: fixed;
+    bottom: 5%;
+    left: 85%;
+    padding: 0;
+    margin: 0;
+
+    background-color: rgba(45, 130, 190, .95);
+
+    width: 10%;
+    height: 7%;
+    border-radius: 25px;
+
+    /* text */
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    font-size: 16px;
+    overflow: hidden;
+
+
+}
