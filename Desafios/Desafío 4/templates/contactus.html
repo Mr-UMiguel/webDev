@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FontAwesome icons script -->
+    <script src="https://kit.fontawesome.com/4108392101.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../style.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-box" id="box1">
+            <h1>Emprendiendo</h1>
+        </div>
+        <div class="header-box" id="box2">
+            <a href="#">Iniciar sesión</a>
+        </div>
+    </header>
+    <nav class="nav-bar">
+        <ul class="nav-tab">
+            <li class="nav-item">
+                <a class="nav-item-a" id="navIndex" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item" id="active">
+                <a class="nav-item-a" id="navContactus" href="./contactus.html">Contáctanos</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="contactus">
+            <div class="contactus_container">
+                <form action="">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Pepito">
+                    <label for="lname">Apellido</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Perez">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="email" name="Correo electrónico" placeholder="pepitoperez@gmail.com">
+                    <label for="WhatsApp">Whatsapp</label>
+                    <input type="number" id="wp" name="whatsapp" placeholder="3011234567">
+
+                    <label class="container">Acepto las políticas de tratamientos de datos
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a class="footer__nav__a" id="youtube" href="https://youtube.com" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <div>
+            <a class="footer__nav__a" id="facebook" href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+        </div>
+        <div>
+            <a class="footer__nav__a" id="instagram" href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
