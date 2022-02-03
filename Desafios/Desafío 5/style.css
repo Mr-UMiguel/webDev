@@ -1,0 +1,30 @@
+.bg-dark {
+    background-color: #333!important;
+}
+.fixed-top {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+
+.btn-outline-success {
+    color: #1886cf;
+    border-color: #195b87;
+}
+
+.container {
+    margin: 10rem;
+}
+
+.container p-4 {
+    position: fixed;
+    bottom:0;
+}
+
+.mb-3 {
+    margin-top: 10rem!important;
+}
